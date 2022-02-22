@@ -56,7 +56,9 @@ my_authors <- read.csv("samples/Authors.csv", row.names = 1)
 # please write the code immediately down here (in the empty space) 
 # save the file, and then push to the GitHub repo 
 
-
+my_authors <- read.csv("samples/other_authors")
+View(my_authors)
+my_authors$author[which(my_authors$nationality == "Italian")]
 
 ### Your Turn (2) - end
 
